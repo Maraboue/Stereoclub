@@ -11,13 +11,23 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Chewy&display=swap" rel="stylesheet"
           type="text/css"/>
     <link rel="stylesheet" href="{$ThemeDir}/css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="{$ThemeDir}/css/homepage.css" type="text/css"/>  
+ 
+
 
 </head>
 
-<body class=">
-    <div class="main" role="main">
-       $Layout
-</div>
+<body>
+
+
+<div class="main" role="main">
+
+    <header>
+
+        <img src="{$ThemeDir}/images/logo-club.png" alt="Stereo Nightclub"/>
+
+    </header>
+   
+    $Layout
+
 </body>
 </html>

@@ -1,0 +1,30 @@
+@mixin flexCenter($background) {
+	
+	display: block;
+	justify-content: center;
+	align-items: center;
+	background: $background;
+}
+
+
+header {
+	
+	@include flexCenter(transparent);
+	height: 100%;
+	z-index: 3;
+  	position: relative;
+  	height: 112px;
+
+
+	img {
+
+	    display: block;
+	    position: relative;
+	    margin-left: auto;
+	    margin-right: auto;
+	    z-index: 3;
+	    margin-top: -15px;
+	    padding-top: 15px;
+
+	}
+}

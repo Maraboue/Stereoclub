@@ -1,10 +1,6 @@
 <!-- Page Title
 ============================================= -->
 
-        
-            <div class="Header">
-                <img src="{$ThemeDir}/images/logo-club.png" alt="Stereo Nightclub"/>
-            </div>
     
 
 <!-- #page-title end -->
@@ -247,13 +243,24 @@
                 </ul>
             </nav>
             <div class= footer_bg> 
+
                 <h2 class="footer_bg_header">Get In touch</h2>
-                    <p class="footer_bg_text">47 Chandos Place, London, WC2N 4HS</p>
-                        <button class="footer_btn">Locate us on map </button>
-                            <img class="footer_img" src="{$ThemeDir}/images/footer-bg.jpg" alt="Stereo Nightclub"/>
+
+                       <p class="footer_bg_text">47 Chandos Place, London, WC2N 4HS</p>
+
+                            <form action="https://www.google.com/maps/place/The+Welsh+Harp,+47+Chandos+Pl,+London+WC2N+4HS
+                                ,+Storbritannien/@51.5096802,-0.125804,19.33z/data=!4m5!3m4!1s0x487604cc2a0bfe1f:0x48f1c831646551f9!8m2!3d51.5097188!4d-0.1259449">
+
+                                <input class="footer_btn" type="submit" value="Locate us on map" />
+                        
+                        <img class="footer_img" src="{$ThemeDir}/images/footer-bg.jpg" alt="Stereo Nightclub"/>
+            
             </div>
+
         </div>    
+
     </div>
+
  </div>
 
 </section><!-- #content end -->
